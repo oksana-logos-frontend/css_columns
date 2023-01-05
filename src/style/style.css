@@ -1,0 +1,32 @@
+ body {
+   height: 100vh;
+  background:center / cover repeat-y url('../images/we_coffee_default.jpeg');
+ }
+ 
+ .text {
+  height: 60%;
+  column-count: 2;
+  column-width: 200px;
+  column-gap: 50px;
+  column-rule: 5px solid rgb(150, 104, 71);
+  column-fill: auto;
+}
+
+.text h2 {
+  font-size: 30px;
+  text-shadow: 2px 1px blanchedalmond;
+  color: black;
+  padding: 15px;
+  column-span: all;
+  margin: 20px 0;
+}
+
+.text span {
+  font-size: 24px;
+  color: rgb(150, 104, 71);
+}
+.text p {
+  break-inside: avoid;
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+}
